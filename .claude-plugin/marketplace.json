@@ -1,0 +1,7 @@
+{
+  "name": "slice-probe",
+  "owner": { "name": "Slice Ventures", "url": "https://github.com/sliceventures-ai" },
+  "plugins": [
+    { "name": "probe", "source": "./probe", "description": "Throwaway plugin that probes Claude Code plugin platform behaviour" }
+  ]
+}

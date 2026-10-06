@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [ { "type": "command", "command": "echo \"SessionStart root=${CLAUDE_PLUGIN_ROOT} at=$(date +%s)\" >> \"${TMPDIR:-/tmp}/probe-hooks.log\"" } ] }
+    ],
+    "Stop": [
+      { "hooks": [ { "type": "command", "command": "echo \"Stop root=${CLAUDE_PLUGIN_ROOT} at=$(date +%s)\" >> \"${TMPDIR:-/tmp}/probe-hooks.log\"" } ] }
+    ]
+  }
+}
